@@ -13,8 +13,10 @@ TRAIN_SOUND_ROOT = os.path.join(DATASET_ROOT, "train_sound")
 VALID_SOUND_ROOT = os.path.join(DATASET_ROOT, "valid_sound")
 TEST_SOUND_ROOT = os.path.join(DATASET_ROOT, "test_sound")
 
-CATEGORIES_PATH = "resources/categories.json"
-CLASSES_PATH = "resources/classes.json"
-TRAIN_METADATA_PATH = "resources/kinetics_train.json"
-VAL_METADATA_PATH = "resources/kinetics_val.json"
-TEST_METADATA_PATH = "resources/kinetics_test.json"
+RESOURCES_ROOT = "resources400"
+
+CATEGORIES_PATH = os.path.join(RESOURCES_ROOT, "categories.json")
+CLASSES_PATH = os.path.join(RESOURCES_ROOT, "classes700.json")
+TRAIN_METADATA_PATH = os.path.join(RESOURCES_ROOT, "kinetics_train.json")
+VAL_METADATA_PATH = os.path.join(RESOURCES_ROOT, "kinetics_val.json")
+TEST_METADATA_PATH = os.path.join(RESOURCES_ROOT, "kinetics_test.json")
